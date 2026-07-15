@@ -10,7 +10,7 @@ function subtotal(price, quant)
     return price * quant;
 }
 
-function totaltax(price, quant) 
+function totaltax(price, quant,tax) 
 {
     return subtotal(price, quant) * tax / 100;
 }
